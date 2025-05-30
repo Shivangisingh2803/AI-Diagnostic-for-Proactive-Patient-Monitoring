@@ -1,13 +1,13 @@
 # AI-Diagnostic-for-Proactive-Patient-Monitoring
 
 **📂 Project Structure**<br>
-|-- Models/<br>
+**|-- Models/**<br>
 |   |-- diabetesmodel.py                 # Diabetes prediction model using Random Forest<br>
 |   |-- covidmodel.py                    # COVID-19 prediction model using KNN<br>
 |   |-- migrainemodel.py                 # Migraine prediction model using KNN<br>
 |   |-- *.pkl                            # Serialized ML models (joblib/pickle)<br>
 |
-|-- static/<br>
+**|-- static/**<br>
 |   |-- home.css                         # CSS for styling the home page<br>
 |   |-- aboutus.css                      # CSS for styling the about us page<br>
 |   |-- vitality monitor.css             # CSS for styling the vitality monitor page<br>
@@ -16,16 +16,24 @@
 |   |-- migraine predict.css             # CSS for styling the migraine prediction page<br>
 
 |
-|-- templates/
+**|-- templates/**<br>
 |   |-- index.html                       # Home HTML page<br>
 |   |-- vitality monitor.html            # vitality monitor HTML page<br>
 |   |-- about us.html                    # about us HTML page<br>
 |   |-- icons.html                       # icons HTML page<br>
 
 |
-|-- Data and EDA/
-|   |-- exploratory_analysis.ipynb       # Data cleaning and EDA notebooks
-|   |-- patient_data.csv                 # Sample dataset for prediction
+**|-- Data and EDA/**<br>
+|   |-- diabetes.csv                      # raw diabetes csv file<br>
+|   |-- covid.csv                         # raw covid csv file<br>
+|   |-- migraine.csv                      # raw migraine csv file<br>
+|   |-- diabetes_cleaned.csv              # cleaned diabetes csv file<br>
+|   |-- covid_cleaned.csv                 # cleaned covid csv file<br>
+|   |-- migraine_cleaned.csv              # cleaned migraine csv file<br>
+|   |-- diabetes_eda.py                   # Data cleaning and EDA notebooks for diabetes<br>
+|   |-- covid_eda.py                      # Data cleaning and EDA notebooks for covid<br>
+|   |-- migraine_eda.py                   # Data cleaning and EDA notebooks for migraine<br>
+|   |-- patient_data.csv                  # Sample dataset for prediction
 |
 |-- app.py                               # Main Flask application
 |-- requirements.txt                     # Python dependencies
