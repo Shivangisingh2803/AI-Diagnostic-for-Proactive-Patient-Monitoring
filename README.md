@@ -1,20 +1,27 @@
 # AI-Diagnostic-for-Proactive-Patient-Monitoring
 
-**📂 Project Structure**
-|-- Models/
-|   |-- diabetesmodel.py                 # Diabetes prediction model using Random Forest
-|   |-- covidmodel.py                    # COVID-19 prediction model using KNN
-|   |-- migrainemodel.py                 # Migraine prediction model using KNN
-|   |-- *.pkl                            # Serialized ML models (joblib/pickle)
+**📂 Project Structure**<br>
+|-- Models/<br>
+|   |-- diabetesmodel.py                 # Diabetes prediction model using Random Forest<br>
+|   |-- covidmodel.py                    # COVID-19 prediction model using KNN<br>
+|   |-- migrainemodel.py                 # Migraine prediction model using KNN<br>
+|   |-- *.pkl                            # Serialized ML models (joblib/pickle)<br>
 |
-|-- static/
-|   |-- home.css                         # CSS for styling the home page
-|   |-- aboutus.css                      # CSS for styling the about us page
-|   |-- vitality monitor.css             # CSS for styling the vitality monitor page
-|   |-- diabetes predict.css             # CSS for styling the diabetes prediction page
+|-- static/<br>
+|   |-- home.css                         # CSS for styling the home page<br>
+|   |-- aboutus.css                      # CSS for styling the about us page<br>
+|   |-- vitality monitor.css             # CSS for styling the vitality monitor page<br>
+|   |-- diabetes predict.css             # CSS for styling the diabetes prediction page<br>
+|   |-- covid predict.css                # CSS for styling the covid prediction page<br>
+|   |-- migraine predict.css             # CSS for styling the migraine prediction page<br>
+
 |
 |-- templates/
-|   |-- index.html                       # Main HTML page
+|   |-- index.html                       # Home HTML page<br>
+|   |-- vitality monitor.html            # vitality monitor HTML page<br>
+|   |-- about us.html                    # about us HTML page<br>
+|   |-- icons.html                       # icons HTML page<br>
+
 |
 |-- Data and EDA/
 |   |-- exploratory_analysis.ipynb       # Data cleaning and EDA notebooks
