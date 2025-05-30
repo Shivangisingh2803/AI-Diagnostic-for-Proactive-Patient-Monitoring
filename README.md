@@ -1,17 +1,17 @@
 # AI-Diagnostic-for-Proactive-Patient-Monitoring
 
 **📂 Project Structure**
-|-- Models/
+|-- Models/<br>
 |   |-- diabetesmodel.py                # Diabetes prediction model using Random Forest<br>
 |   |-- covidmodel.py                   # COVID-19 prediction model using KNN<br>
 |   |-- migrainemodel.py                # Migraine prediction model using KNN<br>
 |   |-- *.pkl                           # Serialized ML models (joblib/pickle)<br>
 |
 |-- static/
-|   |-- style.css                       # CSS for styling the frontend
-|   |-- style.css                       # CSS for styling the frontend
-|   |-- style.css                       # CSS for styling the frontend
-|   |-- style.css                       # CSS for styling the frontend
+|   |-- home.css                        # CSS for styling the home page<br>
+|   |-- aboutus.css                     # CSS for styling the about us page<br>
+|   |-- vitality monitor.css            # CSS for styling the vitality monitor page<br>
+|   |-- diabetes predict.css            # CSS for styling the diabetes prediction page<br>
 |
 |-- templates/
 |   |-- index.html                      # Main HTML page
