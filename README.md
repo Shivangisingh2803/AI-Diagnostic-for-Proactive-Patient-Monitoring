@@ -33,11 +33,13 @@
 |   |-- diabetes_eda.py                   # Data cleaning and EDA notebooks for diabetes<br>
 |   |-- covid_eda.py                      # Data cleaning and EDA notebooks for covid<br>
 |   |-- migraine_eda.py                   # Data cleaning and EDA notebooks for migraine<br>
-|   |-- patient_data.csv                  # Sample dataset for prediction
 |
-|-- app.py                               # Main Flask application
-|-- requirements.txt                     # Python dependencies
-|-- README.md                            # Project overview and instructions
+|-- app.py                                      # Main Flask application<br>
+|-- covidmodel.py                               # covid ml model file<br>
+|-- diabetesmodel.py                               # diabetes ml model file<br>
+|-- migrainemoddel.py                               # Migraine ml model file<br>
+
+|-- README.md                            # Project overview and instructions<br>
 
 
 **Overview**
