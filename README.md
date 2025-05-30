@@ -1,16 +1,16 @@
 # AI-Diagnostic-for-Proactive-Patient-Monitoring
 
 **📂 Project Structure**
-|-- Dashboard/
-|   |-- diagnosis_dashboard.png         # Screenshot or visual representation of the UI
-|
 |-- Models/
-|   |-- diabetesmodel.py                # Diabetes prediction model using Random Forest
-|   |-- covidmodel.py                   # COVID-19 prediction model using KNN
-|   |-- migrainemodel.py                # Migraine prediction model using KNN
-|   |-- *.pkl                           # Serialized ML models (joblib/pickle)
+|   |-- diabetesmodel.py                # Diabetes prediction model using Random Forest<br>
+|   |-- covidmodel.py                   # COVID-19 prediction model using KNN<br>
+|   |-- migrainemodel.py                # Migraine prediction model using KNN<br>
+|   |-- *.pkl                           # Serialized ML models (joblib/pickle)<br>
 |
 |-- static/
+|   |-- style.css                       # CSS for styling the frontend
+|   |-- style.css                       # CSS for styling the frontend
+|   |-- style.css                       # CSS for styling the frontend
 |   |-- style.css                       # CSS for styling the frontend
 |
 |-- templates/
