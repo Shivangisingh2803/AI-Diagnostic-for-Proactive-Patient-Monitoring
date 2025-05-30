@@ -1,28 +1,29 @@
 # AI-Diagnostic-for-Proactive-Patient-Monitoring
 
 **📂 Project Structure**
-|-- Models/<br>
-|   |-- diabetesmodel.py                # Diabetes prediction model using Random Forest<br>
-|   |-- covidmodel.py                   # COVID-19 prediction model using KNN<br>
-|   |-- migrainemodel.py                # Migraine prediction model using KNN<br>
-|   |-- *.pkl                           # Serialized ML models (joblib/pickle)<br>
+|-- Models/
+|   |-- diabetesmodel.py                 # Diabetes prediction model using Random Forest
+|   |-- covidmodel.py                    # COVID-19 prediction model using KNN
+|   |-- migrainemodel.py                 # Migraine prediction model using KNN
+|   |-- *.pkl                            # Serialized ML models (joblib/pickle)
 |
 |-- static/
-|   |-- home.css                        # CSS for styling the home page<br>
-|   |-- aboutus.css                     # CSS for styling the about us page<br>
-|   |-- vitality monitor.css            # CSS for styling the vitality monitor page<br>
-|   |-- diabetes predict.css            # CSS for styling the diabetes prediction page<br>
+|   |-- home.css                         # CSS for styling the home page
+|   |-- aboutus.css                      # CSS for styling the about us page
+|   |-- vitality monitor.css             # CSS for styling the vitality monitor page
+|   |-- diabetes predict.css             # CSS for styling the diabetes prediction page
 |
 |-- templates/
-|   |-- index.html                      # Main HTML page
+|   |-- index.html                       # Main HTML page
 |
 |-- Data and EDA/
-|   |-- exploratory_analysis.ipynb      # Data cleaning and EDA notebooks
-|   |-- patient_data.csv                # Sample dataset for prediction
+|   |-- exploratory_analysis.ipynb       # Data cleaning and EDA notebooks
+|   |-- patient_data.csv                 # Sample dataset for prediction
 |
-|-- app.py                              # Main Flask application
-|-- requirements.txt                    # Python dependencies
-|-- README.md                           # Project overview and instructions
+|-- app.py                               # Main Flask application
+|-- requirements.txt                     # Python dependencies
+|-- README.md                            # Project overview and instructions
+
 
 **Overview**
 A web-based application designed to assist pathologists in making faster and more accurate disease predictions. By integrating machine learning algorithms into an intuitive web interface, the system predicts diseases such as Diabetes, COVID-19, and Migraine. It analyzes patient symptoms and test data to generate instant predictions with confidence scores, thereby supporting pathologists in clinical decision-making.
